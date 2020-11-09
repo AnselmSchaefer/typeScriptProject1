@@ -3,10 +3,13 @@
     "extends": [
         "tslint:recommended"
     ],
-    "jsRules": {},
+    "jsRules": {
+     
+    },
     "rules": {
         "semicolon": false,
-        "trailing-comma": false
+        "trailing-comma": false,
+        "no-invalid-this": true
     },
     "rulesDirectory": []
 }
